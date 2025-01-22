@@ -41,7 +41,7 @@
 
 | Link | GitHub |
 | ---- | ------ |
-| [LinuxMint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
+| [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
+| [Mate Desktop 探索筆記](https://samwhelp.github.io/note-about-mate/) | [GitHub](https://github.com/samwhelp/note-about-mate) |
 | [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
 | [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
-| [Mate 探索筆記](https://samwhelp.github.io/note-about-mate/) | [GitHub](https://github.com/samwhelp/note-about-mate) |
