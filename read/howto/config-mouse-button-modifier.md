@@ -9,9 +9,51 @@ parent: 如何
 # 設定「Mouse Button Modifier」
 
 
-## 相關設定指令
 
-執行下面指令，將「Mouse Button Modifier」設定「Super鍵」，也就是「Win鍵」。
+
+## 主題
+
+* [前提](#前提)
+* [調整設定指令](#調整設定指令)
+* [相關議題](#相關議題)
+* [相關應用](#相關應用)
+* [相關連結](#相關連結)
+
+
+
+
+## 前提
+
+在「Linux Mint Mate Desktop」，預設是將「Mouse Button Modifier」設定為「`Alt鍵`」。
+
+可以執行下面指令，找到該設定。
+
+``` sh
+gsettings list-recursively | grep "'<Alt>'"
+```
+
+
+顯示類似如下
+
+```
+org.cinnamon.desktop.wm.preferences mouse-button-modifier '<Alt>'
+org.cinnamon.desktop.wm.preferences mouse-button-zoom-modifier '<Alt>'
+org.compiz.integrated show-hud ['<Alt>']
+org.mate.Marco.general mouse-button-modifier '<Alt>'
+```
+
+> 該設定是「`org.mate.Marco.general mouse-button-modifier '<Alt>'`」這一行。
+
+我個人慣用的「Mouse Button Modifier」是「`Win鍵`」。
+
+所以以下我會調整成我順手的操作模式。
+
+
+
+
+## 調整設定指令
+
+執行下面指令，將「Mouse Button Modifier」設定「`Super鍵`」，也就是「`Win鍵`」。
 
 ``` sh
 gsettings set org.mate.Marco.general mouse-button-modifier "'<Super>'"
@@ -47,6 +89,8 @@ gsettings set com.solus-project.brisk-menu hot-key ''
 ```
 
 
+
+
 ## 相關議題
 
 | 相關議題 |
@@ -55,9 +99,13 @@ gsettings set com.solus-project.brisk-menu hot-key ''
 | [停用按鍵綁定「Super_L」開啟「Overlay」](https://samwhelp.github.io/note-about-linuxmint-mate/read/howto/disable-keybind-open-menu.html) |
 
 
+
+
 ## 相關應用
 
 * Menu Applet 開發筆記 / [demo-mouse-button-modifier](https://samwhelp.github.io/note-about-menu-applet/read/demo/demo-mouse-button-modifier.html#mate)
+
+
 
 
 ## 相關連結
