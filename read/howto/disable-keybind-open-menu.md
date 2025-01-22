@@ -44,7 +44,7 @@ com.linuxmint.mintmenu hot-key 'Super_L'
 
 ## 調整設定指令
 
-執行下面指令，停用按鍵綁定「Super_L」開啟「Menu」
+執行下面指令，停用按鍵綁定「`Super_L`」開啟「Menu」
 
 ``` sh
 gsettings set com.linuxmint.mintmenu hot-key ''
