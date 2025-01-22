@@ -13,6 +13,9 @@
 ## 主題
 
 * [微調腳本](#微調腳本)
+* [概覽](#概覽)
+* [如何](#如何)
+* [按鍵綁定](#按鍵綁定)
 * [佈景主題](#佈景主題)
 * [相關筆記](#相關筆記)
 
@@ -24,6 +27,37 @@
 | 微調腳本 |
 | -------- |
 | [Linux Mint Mate Config](https://github.com/samwhelp/linuxmint-mate-adjustment/tree/main/prototype/main/) |
+| [Tool Config](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/main/tool-config/part) |
+
+
+
+
+## 概覽
+
+| [概覽](https://samwhelp.github.io/note-about-linuxmint-mate/read/guide.html) |
+| ----------------- |
+| [如何微調](https://samwhelp.github.io/note-about-linuxmint-mate/read/guide/customize.html) |
+| [工作流程](https://samwhelp.github.io/note-about-linuxmint-mate/read/guide/workflow.html) |
+
+
+
+
+## 如何
+
+| [如何](https://samwhelp.github.io/note-about-linuxmint-mate/read/howto.html) |
+| ------- |
+| [設定「Mouse Button Modifier」](https://samwhelp.github.io/note-about-linuxmint-mate/read/howto/config-mouse-button-modifier.html) |
+| [停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-mate/read/howto/disable-keybind-open-menu.html) |
+
+
+
+
+## 按鍵綁定
+
+| 按鍵綁定 |
+| ------- |
+| [鍵盤按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-mate/read/config/keybind.html) |
+| [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-mate/read/config/mousebind.html) |
 
 
 
