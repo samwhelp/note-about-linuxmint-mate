@@ -23,7 +23,7 @@
 
 | 微調腳本 |
 | -------- |
-| [LinuxMint Mate](https://github.com/samwhelp/linuxmint-mate-adjustment/tree/main/prototype/main/) |
+| [Linux Mint Mate Config](https://github.com/samwhelp/linuxmint-mate-adjustment/tree/main/prototype/main/) |
 
 
 
