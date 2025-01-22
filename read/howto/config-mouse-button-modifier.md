@@ -85,7 +85,7 @@ gsettings set org.mate.Marco.general resize-with-right-button true
 
 
 ``` sh
-gsettings set com.solus-project.brisk-menu hot-key ''
+gsettings set com.linuxmint.mintmenu hot-key ''
 ```
 
 
@@ -96,7 +96,7 @@ gsettings set com.solus-project.brisk-menu hot-key ''
 | 相關議題 |
 | ------- |
 | [滑鼠按鍵綁定](https://samwhelp.github.io/note-about-linuxmint-mate/read/config/mousebind.html#視窗內容區塊) |
-| [停用按鍵綁定「Super_L」開啟「Overlay」](https://samwhelp.github.io/note-about-linuxmint-mate/read/howto/disable-keybind-open-menu.html) |
+| [停用按鍵綁定「Super_L」開啟「Menu」](https://samwhelp.github.io/note-about-linuxmint-mate/read/howto/disable-keybind-open-menu.html) |
 
 
 
