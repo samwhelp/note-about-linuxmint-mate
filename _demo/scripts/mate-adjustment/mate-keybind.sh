@@ -91,6 +91,8 @@ mod_mate_config_for_keybind_main () {
 
 	gsettings set org.mate.Marco.global-keybindings switch-to-workspace-right  "'<Alt>s'"
 
+	gsettings set org.mate.Marco.global-keybindings switch-to-workspace-prev  "'<Alt>z'"
+
 
 	##
 	## ## Window / Tiling Move
