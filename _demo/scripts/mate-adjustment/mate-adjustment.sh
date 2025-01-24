@@ -244,6 +244,87 @@ mod_mate_config_for_workspace () {
 
 
 
+##
+## ## Tool / Mate Terminal / Config
+##
+
+mod_tool_mate_terminal_config () {
+
+
+	return 0
+}
+
+
+
+
+##
+## ## Tool / Caja / Config
+##
+
+mod_tool_caja_config () {
+
+
+	return 0
+}
+
+
+
+
+##
+## ## Tool / Xed / Config
+##
+
+mod_tool_xed_config () {
+
+
+	gsettings set org.x.editor.preferences.editor prefer-dark-theme true
+
+	gsettings set org.x.editor.preferences.editor scheme 'oblivion'
+
+	gsettings set org.x.editor.preferences.editor use-default-font false
+
+	gsettings set org.x.editor.preferences.editor editor-font 'Monospace 14'
+
+	gsettings set org.x.editor.preferences.editor insert-spaces false
+
+	gsettings set org.x.editor.preferences.editor tabs-size 4
+
+	gsettings set org.x.editor.preferences.editor highlight-current-line true
+
+	gsettings set org.x.editor.preferences.editor display-line-numbers true
+
+	gsettings set org.x.editor.preferences.editor display-right-margin true
+
+	gsettings set org.x.editor.preferences.editor right-margin-position 80
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace true
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace-inside true
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace-leading true
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace-newline true
+
+	gsettings set org.x.editor.preferences.editor draw-whitespace-trailing true
+
+	gsettings set org.x.editor.preferences.editor ensure-trailing-newline true
+
+
+
+
+	gsettings set org.x.editor.preferences.ui side-panel-visible true
+
+
+
+
+	gsettings set org.x.editor.plugins.filebrowser terminal-command 'gnome-terminal'
+
+
+	return 0
+}
+
+
+
 
 ##
 ## ## Mate / Config
@@ -264,6 +345,18 @@ mod_mate_config () {
 	return 0
 }
 
+mod_tool_config () {
+
+	mod_tool_mate_terminal_config
+
+	mod_tool_caja_config
+
+	mod_tool_xed_config
+
+
+	return 0
+}
+
 mod_config_portal () {
 
 
@@ -277,6 +370,8 @@ mod_config_portal () {
 
 
 	mod_mate_config
+
+	mod_tool_config
 
 
 
