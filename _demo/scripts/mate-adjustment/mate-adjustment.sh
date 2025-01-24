@@ -22,9 +22,24 @@
 
 mod_mate_config_for_mouse_button_modifier () {
 
+
+	##
+	## ## Disable Super_L Open Menu
+	##
+
+	gsettings set com.linuxmint.mintmenu hot-key ''
+
+	#gsettings set com.solus-project.brisk-menu hot-key ''
+
+
+	##
+	## ## Mouse Button Modifier
+	##
+
 	gsettings set org.mate.Marco.general mouse-button-modifier "'<Super>'"
 
 	gsettings set org.mate.Marco.general resize-with-right-button true
+
 
 	return 0
 }
@@ -42,8 +57,6 @@ mod_mate_config_for_keybind_main () {
 	##
 	## ## Fix
 	##
-
-	gsettings set com.linuxmint.mintmenu hot-key ''
 
 
 
