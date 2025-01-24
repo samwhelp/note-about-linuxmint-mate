@@ -262,12 +262,30 @@ mod_tool_mate_terminal_config () {
 
 mod_tool_mate_terminal_config_for_preference () {
 
+
+	local path="org.mate.terminal.global"
+
+
+
+
+	gsettings set "${path}" confirm-window-close true
+
+
+
 	return 0
 }
 
 mod_tool_mate_terminal_config_for_keybind () {
 
 
+	local path="org.mate.terminal.keybindings"
+
+
+	gsettings set "${path}" zoom-normal '<Control>0'
+
+	gsettings set "${path}" zoom-out '<Control>minus'
+
+	gsettings set "${path}" zoom-in '<Control>equal'
 
 
 	return 0
@@ -275,6 +293,56 @@ mod_tool_mate_terminal_config_for_keybind () {
 
 mod_tool_mate_terminal_config_for_profile () {
 
+
+	gsettings set org.mate.terminal.global profile-list "['default']"
+
+	gsettings set org.mate.terminal.global default-profile "'default'"
+
+
+
+
+	local profile="default"
+	##profile=${profile:1:-1} # remove leading and trailing single quotes
+
+
+	local path="org.mate.terminal.profile:/org/mate/terminal/profiles/${profile}/"
+
+
+
+
+	gsettings set "${path}" visible-name 'Default'
+
+	gsettings set "${path}" default-show-menubar false
+
+	gsettings set "${path}" scrollbar-position "'hidden'"
+
+	gsettings set "${path}" scroll-on-keystroke true
+
+	gsettings set "${path}" silent-bell true
+
+	gsettings set "${path}" cursor-blink-mode 'off'
+
+	gsettings set "${path}" use-theme-colors false
+
+	gsettings set "${path}" use-custom-default-size true
+
+	gsettings set "${path}" use-system-font false
+
+	gsettings set "${path}" font 'Monospace 14'
+
+	gsettings set "${path}" allow-bold true
+
+	gsettings set "${path}" bold-color '#000000000000'
+
+	gsettings set "${path}" background-type 'transparent'
+
+	gsettings set "${path}" background-darkness 0.85
+
+	gsettings set "${path}" background-color '#000000000000'
+
+	gsettings set "${path}" foreground-color '#AAAAAAAAAAAA'
+
+	gsettings set "${path}" palette '#000000000000:#CCCC00000000:#4E4D9A9A0605:#C4C3A0A00000:#34346564A4A3:#7575504F7B7B:#060598979A9A:#D3D3D7D6CFCF:#555457565352:#EFEF29282928:#8A89E2E23434:#FCFBE9E84F4F:#72729F9ECFCF:#ADAC7F7EA8A8:#3434E2E2E2E2:#EEEDEEEDECEB'
 
 
 
