@@ -360,6 +360,22 @@ mod_tool_mate_terminal_config_for_profile () {
 mod_tool_caja_config () {
 
 
+	gsettings set org.mate.caja.preferences show-hidden-files true
+
+	gsettings set org.mate.caja.preferences default-folder-viewer 'list-view'
+
+	gsettings set org.mate.caja.list-view default-column-order "['name', 'size', 'type', 'date_modified', 'date_accessed', 'date_created', 'extension', 'group', 'where', 'mime_type', 'octal_permissions', 'owner', 'permissions', 'size_on_disk']"
+
+	gsettings set org.mate.caja.list-view default-visible-columns "['name', 'size', 'type', 'date_modified']"
+
+
+
+
+	gsettings set org.gtk.gtk4.Settings.FileChooser show-hidden true
+
+
+
+
 	return 0
 }
 
