@@ -25,7 +25,14 @@ bash <(curl -L https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-m
 > or run
 
 ``` sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-keybind/mate-keybind.sh || wget -q https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-keybind/mate-keybind.sh -O -)"
+bash <(wget -q https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-keybind/mate-keybind.sh -O - )
+```
+
+
+> or run
+
+``` sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-keybind/mate-keybind.sh || wget -q https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-keybind/mate-keybind.sh -O - )"
 ```
 
 

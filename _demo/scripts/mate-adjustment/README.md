@@ -25,7 +25,14 @@ bash <(curl -L https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-m
 > or run
 
 ``` sh
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-adjustment/mate-adjustment.sh || wget -q https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-adjustment/mate-adjustment.sh -O -)"
+bash <(wget -q https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-adjustment/mate-adjustment.sh -O - )
+```
+
+
+> or run
+
+``` sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-adjustment/mate-adjustment.sh || wget -q https://raw.githubusercontent.com/samwhelp/note-about-linuxmint-mate/refs/heads/gh-pages/_demo/scripts/mate-adjustment/mate-adjustment.sh -O - )"
 ```
 
 
