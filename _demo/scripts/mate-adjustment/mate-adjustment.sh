@@ -197,13 +197,13 @@ mod_mate_config_for_keybind_custom () {
 
 	## ### File Manager-1
 	dconf write /org/mate/desktop/keybindings/file-manager-1/name "'File_Manager-1'"
-	dconf write /org/mate/desktop/keybindings/file-manager-1/action "'thunar'"
+	dconf write /org/mate/desktop/keybindings/file-manager-1/action "'pcmanfm-qt'"
 	dconf write /org/mate/desktop/keybindings/file-manager-1/binding "'<Shift><Alt>g'"
 
 
 	## ### Text Editor
 	dconf write /org/mate/desktop/keybindings/text-editor/name "'Text_Editor'"
-	dconf write /org/mate/desktop/keybindings/text-editor/action "'pluma'"
+	dconf write /org/mate/desktop/keybindings/text-editor/action "'xed'"
 	dconf write /org/mate/desktop/keybindings/text-editor/binding "'<Shift><Alt>e'"
 
 
