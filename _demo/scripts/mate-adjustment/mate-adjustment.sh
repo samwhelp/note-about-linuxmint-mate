@@ -250,6 +250,34 @@ mod_mate_config_for_workspace () {
 
 mod_tool_mate_terminal_config () {
 
+	mod_tool_mate_terminal_config_for_preference
+
+	mod_tool_mate_terminal_config_for_keybind
+
+	mod_tool_mate_terminal_config_for_profile
+
+
+	return 0
+}
+
+mod_tool_mate_terminal_config_for_preference () {
+
+	return 0
+}
+
+mod_tool_mate_terminal_config_for_keybind () {
+
+
+
+
+	return 0
+}
+
+mod_tool_mate_terminal_config_for_profile () {
+
+
+
+
 
 	return 0
 }
