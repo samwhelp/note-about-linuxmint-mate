@@ -46,6 +46,17 @@ mod_mate_config_for_keybind_main () {
 	gsettings set com.linuxmint.mintmenu hot-key ''
 
 
+
+
+	##
+	## ## Launcher
+	##
+
+	gsettings set org.mate.Marco.global-keybindings panel-main-menu "'<Alt>F1'"
+
+	gsettings set org.mate.Marco.global-keybindings panel-run-dialog "'<Alt>F2'"
+
+
 	##
 	## ## Window
 	##
