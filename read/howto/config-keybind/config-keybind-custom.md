@@ -159,6 +159,8 @@ binding='<Shift><Alt>b'
 name='Web_Browser'
 ```
 
+> 注意: 目前按鍵綁定觸發「`caja`」，測試結果並不會觸發，我目前也不曉得原因
+，所以可以改綁定其他的「File Manager」，例如「`thunar`」或「`pcmanfm-qt`」。
 
 
 
