@@ -83,7 +83,7 @@ dconf write /org/mate/desktop/keybindings/file-manager/binding "'<Shift><Alt>f'"
 
 ## ### File Manager-1
 dconf write /org/mate/desktop/keybindings/file-manager-1/name "'File_Manager-1'"
-dconf write /org/mate/desktop/keybindings/file-manager-1/action "'pcmanfm-qt'"
+dconf write /org/mate/desktop/keybindings/file-manager-1/action "'thunar'"
 dconf write /org/mate/desktop/keybindings/file-manager-1/binding "'<Shift><Alt>g'"
 
 
