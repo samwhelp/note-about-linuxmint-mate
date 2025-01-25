@@ -119,7 +119,7 @@ binding='<Shift><Alt>s'
 name='Control_Center'
 
 [file-manager-1]
-action='pcmanfm-qt'
+action='thunar'
 binding='<Shift><Alt>g'
 name='File_Manager-1'
 
