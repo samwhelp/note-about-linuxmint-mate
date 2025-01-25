@@ -28,7 +28,7 @@ parent: 如何
 gsettings list-recursively | grep 'keybind'
 ```
 
-顯示如下 (有很多，就不列了在此，請參考我放在「GitHub」上的[紀錄](https://github.com/samwhelp/linuxmint-mate-adjustment/blob/main/sample/22.1/dump/keybind/keybind.txt))
+顯示如下 (有很多行，就不列在此佔篇幅，請參考我放在「GitHub」上的[紀錄](https://github.com/samwhelp/linuxmint-mate-adjustment/blob/main/sample/22.1/dump/keybind/keybind.txt))
 
 
 > 執行下面指令，進一步篩選出顯示結果
