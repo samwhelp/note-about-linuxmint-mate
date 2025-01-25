@@ -196,6 +196,7 @@ mod_mate_config_for_keybind_custom () {
 	dconf write /org/mate/desktop/keybindings/terminal/action "'mate-terminal'"
 	dconf write /org/mate/desktop/keybindings/terminal/binding "'<Alt>Return'"
 
+
 	## ### Terminal-1
 	dconf write /org/mate/desktop/keybindings/terminal-1/name "'Terminal-1'"
 	dconf write /org/mate/desktop/keybindings/terminal-1/action "'mate-terminal'"
