@@ -211,6 +211,11 @@ gsettings set org.mate.Marco.global-keybindings switch-to-workspace-right  "'<Al
 ```
 
 
+> `Super` for `Window Switch`
+
+> `Alt` for `Workspace Switch`
+
+
 
 
 ## Window / Tiling Move
