@@ -62,7 +62,7 @@ mod_mate_config_for_keybind_main () {
 
 
 	##
-	## ## Launcher
+	## ## Application / Launcher
 	##
 
 	gsettings set org.mate.Marco.global-keybindings panel-main-menu "'<Alt>F1'"
