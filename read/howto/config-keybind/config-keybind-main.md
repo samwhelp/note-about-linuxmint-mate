@@ -75,7 +75,7 @@ gsettings set org.mate.Marco.global-keybindings panel-main-menu "'<Alt>F1'"
 > 執行下面指令，綁定「`Alt + F2`」來顯示「Application Runner」。
 
 ``` sh
-	gsettings set org.mate.Marco.global-keybindings panel-run-dialog "'<Alt>F2'"
+gsettings set org.mate.Marco.global-keybindings panel-run-dialog "'<Alt>F2'"
 ```
 
 
