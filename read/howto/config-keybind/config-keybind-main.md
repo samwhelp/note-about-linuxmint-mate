@@ -29,6 +29,8 @@ grand_parent: 如何
 
 以下紀錄我常用的「視窗操作按鍵綁定」來當作「[設定範例](#設定範例)」說明。
 
+> 要注意的是以下只是單就個別項目做說明，有些綁定可能會跟目前既有的綁定衝突，所以要設定完整，還是要做統整的設定。
+
 
 
 
@@ -171,7 +173,7 @@ gsettings set org.mate.Marco.window-keybindings begin-resize "'<Super>r'"
 
 ## Window / Previous
 
-> 執行下面指令，綁定「`Win + a`」來切換到「`上一個聚焦視窗`」。
+> 執行下面指令，綁定「`Win + a`」來切換聚焦到「`上一個視窗`」。
 
 ``` sh
 gsettings set org.mate.Marco.global-keybindings switch-windows-backward "'<Super>a'"
@@ -182,7 +184,7 @@ gsettings set org.mate.Marco.global-keybindings switch-windows-backward "'<Super
 
 ## Window / Next
 
-> 執行下面指令，綁定「`Win + s`」來切換到「`下一個聚焦視窗`」。
+> 執行下面指令，綁定「`Win + s`」來切換聚焦到「`下一個視窗`」。
 
 ``` sh
 gsettings set org.mate.Marco.global-keybindings switch-windows "'<Super>s'"
