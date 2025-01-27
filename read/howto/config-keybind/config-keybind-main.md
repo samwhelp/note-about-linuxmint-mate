@@ -214,9 +214,18 @@ gsettings set org.mate.Marco.global-keybindings switch-to-workspace-right  "'<Al
 ```
 
 
-> `Super` for `Window Switch`
+| 方位        | 按鍵           | 功能                    |
+| ----------- | -------------- | ----------------------- |
+| 左 (Left)   | `Win + a`      | `Window / Previous`     |
+| 右 (Right)  | `Win + s`      | `Window / Next`         |
+| 左 (Left)   | `Alt + a`      | `Workspace / Previous`  |
+| 右 (Right)  | `Alt + s`      | `Workspace / Next`      |
 
-> `Alt` for `Workspace Switch`
+> 關於「grave」指是「`」，在「Tab鍵」上方的那個「鍵盤按鍵」。
+
+> `Super` for `Window`
+
+> `Control` for `Workspace`
 
 
 
