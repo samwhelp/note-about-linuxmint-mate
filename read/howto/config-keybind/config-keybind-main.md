@@ -225,7 +225,7 @@ gsettings set org.mate.Marco.global-keybindings switch-to-workspace-right  "'<Al
 
 > `Super` for `Window`
 
-> `Control` for `Workspace`
+> `Alt` for `Workspace`
 
 
 
