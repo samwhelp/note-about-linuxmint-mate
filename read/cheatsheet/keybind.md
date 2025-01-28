@@ -112,6 +112,7 @@ parent: 一覽表
 
 
 
+
 ## 切換
 
 ## 切換 / 視窗 / 聚焦切換
@@ -120,6 +121,10 @@ parent: 一覽表
 | ------------ | ----------------------- | ---------------------------------------------- |
 | `Win + a`    | 聚焦切換到前面一個視窗  | `org.mate.Marco.global-keybindings switch-windows-backward`              |
 | `Win + s`    | 聚焦切換到後面一個視窗  | `org.mate.Marco.global-keybindings switch-windows`                        |
+
+> 一般預設「`Alt + Tab`」綁定「`視窗聚焦切換`」
+
+
 
 
 ## 切換 / 工作空間 / 循環切換
