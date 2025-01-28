@@ -94,17 +94,18 @@ parent: 一覽表
 
 | 按鍵組合   | 功能                               | 設定項目                       |
 | ---------- | ---------------------------------- | ------------------------------ |
+| `Alt + Space`  | 顯示「視窗功能選單」  | `org.mate.Marco.window-keybindings activate-window-menu`            |
 | `Win + q`  | 關閉視窗                           | `org.mate.Marco.window-keybindings close`                |
 | `Win + f`  | 視窗全螢幕                         | `org.mate.Marco.window-keybindings toggle-fullscreen`           |
 | `Win + w`  | 視窗最大化                         | `org.mate.Marco.window-keybindings toggle-maximized`             |
-| `Win + x`  | 視窗最小化                         | ``             |
+| `Win + x`  | 視窗最小化                         | `org.mate.Marco.window-keybindings minimize`             |
 | `Win + d`  | 切換顯示桌面                         | `org.mate.Marco.global-keybindings show-desktop`             |
 | `Win + e`  | 開始「視窗移動」                   | `org.mate.Marco.window-keybindings begin-move`                 |
 | `Win + r`  | 開始「視窗更改大小」               | `org.mate.Marco.window-keybindings begin-resize`               |
-| `Win + t`  | 視窗保持永遠在最上方               | ``  |
-| `Win + b`  | 視窗保持永遠在最下方               | ``  |
-| `Win + y`  | 視窗內容區塊收合                   | ``                |
-| `Win + n`  | 切換顯示隱藏視窗裝飾(Decorations)  | ``            |
+| `Win + y`  | 視窗內容區塊收合                   | `org.mate.Marco.window-keybindings toggle-shaded`                |
+| `Win + t`  | 視窗保持永遠在最上方               | `org.mate.Marco.window-keybindings toggle-above`  |
+| `Win + z`  | 切換聚焦最近兩個視窗               | `org.mate.Marco.window-keybindings raise-or-lower`  |
+
 
 > 一般預設「`Alt + F4`」綁定「`視窗關閉`」
 
