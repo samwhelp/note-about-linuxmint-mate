@@ -104,7 +104,7 @@ parent: 一覽表
 | `Win + r`  | 開始「視窗更改大小」               | `org.mate.Marco.window-keybindings begin-resize`               |
 | `Win + y`  | 視窗內容區塊收合                   | `org.mate.Marco.window-keybindings toggle-shaded`                |
 | `Win + t`  | 視窗保持永遠在最上方               | `org.mate.Marco.window-keybindings toggle-above`  |
-| `Win + z`  | 切換聚焦最近兩個視窗               | `org.mate.Marco.window-keybindings raise-or-lower`  |
+| `Win + z`  | 在最近兩個視窗聚焦切換               | `org.mate.Marco.window-keybindings raise-or-lower`  |
 
 
 > 一般預設「`Alt + F4`」綁定「`視窗關閉`」
@@ -120,8 +120,8 @@ parent: 一覽表
 
 | 按鍵組合     | 功能                    | 設定項目                                       |
 | ------------ | ----------------------- | ---------------------------------------------- |
-| `Win + a`    | 聚焦切換到前面一個視窗  | `org.mate.Marco.global-keybindings switch-windows-backward`              |
-| `Win + s`    | 聚焦切換到後面一個視窗  | `org.mate.Marco.global-keybindings switch-windows`                        |
+| `Win + a`    | 聚焦切換到「前面一個視窗」  | `org.mate.Marco.global-keybindings switch-windows-backward`              |
+| `Win + s`    | 聚焦切換到「後面一個視窗」  | `org.mate.Marco.global-keybindings switch-windows`                        |
 
 > 一般預設「`Alt + Tab`」綁定「`視窗聚焦切換`」
 
@@ -132,8 +132,8 @@ parent: 一覽表
 
 | 按鍵組合   | 功能                  | 設定項目                            |
 | ---------- | --------------------- | ----------------------------------- |
-| `Alt + a`  | 切換到上一個工作空間  | `org.mate.Marco.global-keybindings switch-to-workspace-left`   |
-| `Alt + s`  | 切換到下一個工作空間  | `org.mate.Marco.global-keybindings switch-to-workspace-right`  |
+| `Alt + a`  | 切換到「上一個工作空間」  | `org.mate.Marco.global-keybindings switch-to-workspace-left`   |
+| `Alt + s`  | 切換到「下一個工作空間」  | `org.mate.Marco.global-keybindings switch-to-workspace-right`  |
 
 
 
