@@ -9,4 +9,4 @@ has_children: true
 
 | 一覽表 |
 | ----- |
-| [鍵盤按鍵綁定一覽表](cheatsheet/keybind) |
+| [鍵盤按鍵綁定一覽表](https://samwhelp.github.io/note-about-linuxmint-mate/read/cheatsheet/keybind.html) |
