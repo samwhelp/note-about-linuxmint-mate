@@ -31,7 +31,7 @@
 | -------- |
 | [Linux Mint Mate Config](https://github.com/samwhelp/linuxmint-mate-adjustment/tree/main/prototype/main/) |
 | [Tool Config](https://github.com/samwhelp/linuxmint-adjustment/tree/main/prototype/main/tool-config/part) |
-| [簡易微調](https://github.com/samwhelp/note-about-linuxmint-mate/tree/gh-pages/_demo/scripts/mate-adjustment) |
+| [簡易微調](https://github.com/samwhelp/linuxmint-mate-adjustment/tree/main/demo/scripts/main/mate-adjustment) |
 
 
 
