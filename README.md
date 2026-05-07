@@ -6,7 +6,7 @@
 | ---- | ------ |
 | [LinuxMint Mate Adjustment](https://samwhelp.github.io/linuxmint-mate-adjustment/) | [GitHub](https://github.com/samwhelp/linuxmint-mate-adjustment) |
 | [LinuxMint Mate 探索筆記](https://samwhelp.github.io/note-about-linuxmint-mate/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint-mate) |
-| [Linux Mint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
+| [LinuxMint 探索筆記](https://samwhelp.github.io/note-about-linuxmint/) | [GitHub](https://github.com/samwhelp/note-about-linuxmint) |
 
 
 
