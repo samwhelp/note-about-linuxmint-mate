@@ -109,9 +109,10 @@
 | ---- | ------ |
 | [Mate Desktop 探索筆記](https://samwhelp.github.io/note-about-mate/) | [GitHub](https://github.com/samwhelp/note-about-mate) |
 | [Ubuntu Mate 探索筆記](https://samwhelp.github.io/note-about-ubuntu-mate/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu-mate) |
+| [Debian Mate 探索筆記](https://samwhelp.github.io/note-about-debian-mate/) | [GitHub](https://github.com/samwhelp/note-about-debian-mate) |
 | [Fedora Mate 探索筆記](https://samwhelp.github.io/note-about-fedora-mate/) | [GitHub](https://github.com/samwhelp/note-about-fedora-mate) |
-| [Ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/) | [GitHub](https://github.com/samwhelp/note-about-ubuntu) |
-| [Debian 探索筆記](https://samwhelp.github.io/note-about-debian/) | [GitHub](https://github.com/samwhelp/note-about-debian) |
+| [Archlinux Mate 探索筆記](https://samwhelp.github.io/note-about-archlinux-mate/) | [GitHub](https://github.com/samwhelp/note-about-archlinux-mate) |
+| [Voidlinux Mate 探索筆記](https://samwhelp.github.io/note-about-voidlinux-mate/) | [GitHub](https://github.com/samwhelp/note-about-voidlinux-mate) |
 
 
 
